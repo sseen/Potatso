@@ -15,6 +15,9 @@
 		234575943B38F4EAD3E2B481 /* Pods_Potatso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E558CCABD311741F0CF9DD9 /* Pods_Potatso.framework */; };
 		671F4F760B4AA48CEDC1B834 /* Pods_TodayWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D8D7B7274BAF6E28C980D9 /* Pods_TodayWidget.framework */; };
 		6BF89D48551DF9EC9D65F0BA /* Pods_PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972ACD00F18B9E461F9D38B1 /* Pods_PotatsoModel.framework */; };
+		92BD63391F3835EE0059BC3E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD63381F3835EE0059BC3E /* NetworkExtension.framework */; };
+		92BD633A1F38372A0059BC3E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD63381F3835EE0059BC3E /* NetworkExtension.framework */; };
+		92BD633B1F3847EE0059BC3E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD63381F3835EE0059BC3E /* NetworkExtension.framework */; };
 		9B07D6B31CB7A6A900182C1B /* PotatsoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07D6B21CB7A6A900182C1B /* PotatsoLibraryTests.swift */; };
 		9B07D6B51CB7A6A900182C1B /* PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9B15BD1C21595B000B6541 /* PotatsoLibrary.framework */; };
 		9B07D6BE1CB7AF0000182C1B /* PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC6FFEA1CB28B4B00E5EA61 /* PotatsoModel.framework */; };
@@ -354,6 +357,7 @@
 		86E310DB3E84260841595217 /* Pods-TodayWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayWidget/Pods-TodayWidget.release.xcconfig"; sourceTree = "<group>"; };
 		89E573E7B926BE00ECB260CC /* Pods-Potatso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potatso.release.xcconfig"; path = "Pods/Target Support Files/Pods-Potatso/Pods-Potatso.release.xcconfig"; sourceTree = "<group>"; };
 		8AB4A0AD4E706A738479B24F /* Pods-PacketTunnel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketTunnel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel.debug.xcconfig"; sourceTree = "<group>"; };
+		92BD63381F3835EE0059BC3E /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		972ACD00F18B9E461F9D38B1 /* Pods_PotatsoModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotatsoModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B07D6B01CB7A6A900182C1B /* PotatsoLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatsoLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B07D6B21CB7A6A900182C1B /* PotatsoLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatsoLibraryTests.swift; sourceTree = "<group>"; };
@@ -941,6 +945,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86B08ED1D17FB9B00613014 /* ShadowPath.framework in Frameworks */,
+				92BD633B1F3847EE0059BC3E /* NetworkExtension.framework in Frameworks */,
 				9BC600241CB2921C00E5EA61 /* PotatsoBase.framework in Frameworks */,
 				9BDA62621CAE2576007F2581 /* PacketProcessor.framework in Frameworks */,
 				1ED659061E05E88C00D4BEE3 /* GameKit.framework in Frameworks */,
@@ -967,6 +972,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88559F01D21371A00B1243E /* PotatsoModel.framework in Frameworks */,
+				92BD633A1F38372A0059BC3E /* NetworkExtension.framework in Frameworks */,
 				9B8193DC1CBDE68100BE320D /* PotatsoBase.framework in Frameworks */,
 				9B8193DD1CBDE68100BE320D /* PotatsoLibrary.framework in Frameworks */,
 				9B8193B41CBCFEE700BE320D /* NotificationCenter.framework in Frameworks */,
@@ -984,6 +990,7 @@
 				9B87060D1C1DBDD400651424 /* libresolv.tbd in Frameworks */,
 				A4564DF27925368D6CA67F7D /* Pods_PacketTunnel.framework in Frameworks */,
 				1EB5EF2F1E031488000C7748 /* YAML.framework in Frameworks */,
+				92BD63391F3835EE0059BC3E /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2057,6 +2064,7 @@
 		C8B2149E8757C44C469576D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92BD63381F3835EE0059BC3E /* NetworkExtension.framework */,
 				1ED659051E05E88C00D4BEE3 /* GameKit.framework */,
 				1ED659001E05C73100D4BEE3 /* CloudKit.framework */,
 				1ED66DED1E05A72300638808 /* StoreKit.framework */,
@@ -2326,7 +2334,7 @@
 					};
 					9B0CFA0A1C1C0B1A007BD7C6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = XGKHW634KL;
+						DevelopmentTeam = C8BSBVK4XU;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2343,6 +2351,9 @@
 								enabled = 1;
 							};
 							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
 								enabled = 1;
 							};
 							com.apple.Push = {
@@ -2363,7 +2374,7 @@
 					};
 					9B8193B11CBCFEE700BE320D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = XGKHW634KL;
+						DevelopmentTeam = C8BSBVK4XU;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2383,7 +2394,7 @@
 					};
 					9B8705F91C1D788F00651424 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = XGKHW634KL;
+						DevelopmentTeam = C8BSBVK4XU;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2602,7 +2613,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		32AEA4C715C4F90A5C6FC894 /* [CP] Copy Pods Resources */ = {
@@ -2662,7 +2673,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7F5FECF0328ABB93E7B81EF0 /* [CP] Copy Pods Resources */ = {
@@ -2692,7 +2703,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8533E9079437E99384941077 /* [CP] Copy Pods Resources */ = {
@@ -2779,7 +2790,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B830CC631D2CF55A00FA8E37 /* Custom Data */ = {
@@ -2851,7 +2862,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DA37A7904D75DAFB6182BD09 /* [CP] Check Pods Manifest.lock */ = {
@@ -2866,7 +2877,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EE2DCE01E31A764A094282A4 /* [CP] Embed Pods Frameworks */ = {
@@ -2896,7 +2907,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3339,7 +3350,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = C8BSBVK4XU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3370,7 +3381,7 @@
 					"$(PODS_ROOT)/Helpshift/helpshift-sdk-ios-v5.6.1",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.testPotatso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3390,7 +3401,7 @@
 				CODE_SIGN_ENTITLEMENTS = Potatso/Potatso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = C8BSBVK4XU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3416,7 +3427,7 @@
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib",
 					"$(PODS_ROOT)/Helpshift/helpshift-sdk-ios-v5.6.1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.testPotatso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3463,7 +3474,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C8BSBVK4XU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -3471,7 +3482,7 @@
 				INFOPLIST_FILE = TodayWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.todaywidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.testPotatso.TodayWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3487,9 +3498,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C8BSBVK4XU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -3497,7 +3508,7 @@
 				INFOPLIST_FILE = TodayWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.todaywidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.testPotatso.TodayWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3515,7 +3526,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = C8BSBVK4XU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3543,7 +3554,7 @@
 					"$(PROJECT_DIR)/PacketTunnel/Shadowsocks/libsodium-ios/lib",
 					"$(PROJECT_DIR)/PacketTunnel",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.tunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.testPotatso.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3560,7 +3571,7 @@
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = C8BSBVK4XU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3587,7 +3598,7 @@
 					"$(PROJECT_DIR)/PacketTunnel/Shadowsocks/libsodium-ios/lib",
 					"$(PROJECT_DIR)/PacketTunnel",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.tunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.testPotatso.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -102,13 +102,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Aspects:
-    :path: "./Library/Aspects/"
+    :path: ./Library/Aspects/
   CallbackURLKit:
-    :path: "./Library/CallbackURLKit"
+    :path: ./Library/CallbackURLKit
   Eureka:
-    :path: "./Library/Eureka/"
+    :path: ./Library/Eureka/
   ICSMainFramework:
-    :path: "./Library/ICSMainFramework/"
+    :path: ./Library/ICSMainFramework/
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
@@ -141,4 +141,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f69f815281cc3a30617e9ae9ec9f4473bf0d0e7d
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
