@@ -37,7 +37,7 @@ class AppInitializer: NSObject, AppLifeCycleProtocol {
         DDLog.add(fileLogger)
 
         let logglyLogger = LogglyLogger() // Loggy Logger
-        logglyLogger.logglyKey = "io.wasin-secretkeyblabla"
+        logglyLogger.logglyKey = "f9cda516-7e21-4fb8-b06d-1ec22e9c3556"
         let fields = LogglyFields()
         fields.userid = User.currentUser.id
         fields.appversion = AppEnv.fullVersion
