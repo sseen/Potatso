@@ -30,7 +30,7 @@ end
 
 target "Potatso" do
     pod 'Aspects', :path => "./Library/Aspects/"
-    pod 'Cartography'
+    pod 'Cartography', '~> 2.0.0'
     pod 'AsyncSwift'
     pod 'SwiftColor'
     pod 'Appirater'
@@ -42,7 +42,7 @@ target "Potatso" do
     pod 'ICSPullToRefresh', '~> 0.6'
     pod 'ISO8601DateFormatter', '~> 0.8'
     pod 'Alamofire'
-    pod 'ObjectMapper'
+    pod 'ObjectMapper', '2.2.2'
     pod 'CocoaLumberjack/Swift', '~> 3.0.0'
     pod 'Helpshift', '5.6.1'
     pod 'PSOperations', '~> 3.0.0'
