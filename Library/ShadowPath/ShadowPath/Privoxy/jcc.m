@@ -921,6 +921,10 @@ static jb_err change_request_destination(struct client_state *csp)
 static int server_response_is_complete(struct client_state *csp,
    unsigned long long content_length)
 {
+    
+    //printf("ssn : %s",csp->http->url);
+    //add_log_csp(csp);
+    
    int content_length_known = !!(csp->flags & CSP_FLAG_CONTENT_LENGTH_SET);
 
    if (!strcmpic(csp->http->gpc, "HEAD"))
@@ -2089,6 +2093,7 @@ static void chat(struct client_state *csp)
          csp->expected_content_length = byte_count;
          csp->flags |= CSP_FLAG_CONTENT_LENGTH_SET;
       }
+       // NSLog(@"%s",csp->http->url);
       if (server_body && server_response_is_complete(csp, byte_count))
       {
          if (csp->expected_content_length == byte_count)
